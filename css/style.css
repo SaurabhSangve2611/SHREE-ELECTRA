@@ -3,7 +3,7 @@
     --primary: #FF5E14;
     --secondary: #5F656F;
     --light: #F5F5F5;
-    --dark: #02245B;
+    --dark: #02245a;
 }
 
 .back-to-top {
@@ -187,6 +187,9 @@ h6,
     }
 }
 
+.heading-icon{
+    color: #02245a;
+}
 
 /*** Header ***/
 .carousel-caption {
@@ -255,6 +258,9 @@ h6,
     border-color: rgba(255, 255, 255, .1) !important;
 }
 
+.service-list {
+    font-size: 12px;
+}
 
 /*** Features ***/
 .btn-play {
@@ -664,6 +670,9 @@ h6,
     transform: scale(1);
 }
 
+.why-us-img {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .10);
+}
 
 /*** Footer ***/
 .footer {
@@ -698,4 +707,13 @@ h6,
 .copyright {
     color: #B0B9AE;
     border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.copyright-designed-by{
+    font-size: 10px;
+}
+
+.update-warning {
+    color:  #ff0000;
+    font-size: 13px;
 }
